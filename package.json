@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.7.0",
+    "@types/node": "^18",
+    "nuxt": "^3.5.0",
+    "vue-concise-slider": "^4.2.5"
+  },
+  "dependencies": {
+    "nuxt-swiper": "^1.1.0",
+    "vue-carousel": "^0.18.0",
+    "vue-screen-size": "^2.1.0"
+  }
+}
