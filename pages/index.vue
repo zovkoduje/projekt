@@ -1,11 +1,11 @@
 <template>
     
-    <div class="bg-gradient-to-br from-blue-200 to-white shadow-lg">
+    <div class="bg-gradient-to-br from-blue-200 to-white  pb-10">
         <Navigation/>
         <div class="flex flex-col md:flex-row items-center m-36">
             <div class="relative z-10 order-1 md:order-1">
                 <h1 class="text-gray-700 font-black text-9xl">Let's change the future</h1>
-                <btn/>
+                <btn class="mt-10"/>
             </div>
             <Cover class="order-2 md:order-2"/>
         </div>
@@ -29,7 +29,9 @@
         <Quote/>        
     </div>
     <Worldmap></Worldmap>
+    <WordlmapMobile></WordlmapMobile>
     <div class=" relative bg-[#F1F1F1]">
+        <Horizontal text="SPECIFICATION"/>
         <Vertical text="SPECIFICATION" color="text-white"/>
         <div>
         <Content
@@ -64,6 +66,7 @@
             />
     </div>
     <div class="bg-gradient-to-t from-[#34bbd9] to-[#2f4e7b] flex-row pt-10 relative">
+        <Horizontal text="ESTIMATION " color="text-white" backgroundColor="white"/>
         <Vertical text="ESTIMATION"/>        
         <Content
             title="Estimation summary"
@@ -87,6 +90,7 @@
     <div class="relative flex-row justify-between pt-32 bg-gradient-to-t from-white to-blue-100">
         <svg class="-mt-32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#34bbd9" fill-opacity="1" d="M0,224L48,229.3C96,235,192,245,288,256C384,267,480,277,576,277.3C672,277,768,267,864,256C960,245,1056,235,1152,202.7C1248,171,1344,117,1392,90.7L1440,
             64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+        <Horizontal text="REALISATION "/>
         <Vertical text="REALISATION"/>
         <Content
             title="Team assembling"
@@ -106,8 +110,7 @@
     <div class="pt-32 pb-10 bg-[url('/imgs/Contact_form_background.png')] bg-no-repeat bg-cover justify-center">
         
             <Contact></Contact>
-    </div> 
-  
+    </div>   
 </template>
 <script>
 

@@ -1,6 +1,7 @@
 <template>
-    <div class="hidden @screen md:flex w-1 h-screen bg-gray-600 absolute left-20 -top-10 ">
-      <p :class="[textColor, 'text-4xl',' absolute -bottom-60 -left-28 -rotate-90']">{{ text }}</p>
+    <div class="md:hidden flex relative justify-center">
+      <p :class="[textColor, 'text-2xl my-6 ']">{{ text }}</p>
+      <div :style="{ backgroundColor: backgroundColor }" class="h-1 rounded w-20 absolute top-10 right-0"></div>
     </div>
   </template>
   
@@ -15,14 +16,14 @@
         type: String,
         default: '#343A40',
       },
-
+      backgroundColor: {
+        type: String,
+        default: '#343A40',
+      },
     },
     computed: {
       textColor() {
         return this.color;
-      },
-      textSize() {
-        return this.size;
       },
     },
   };

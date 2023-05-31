@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col-reverse justify-center items-center md:flex-row">
-    <div :class="[textClass, 'pt-10 pl-10 w-full sm:w-1/2']">
+    <div :class="[textClass, 'pt-10 px-10 pb-10 md:px-20 md:pb-52  w-full sm:w-1/2']">
       <h1 :style="{ color: textColor }" class="font-black text-6xl mb-10 text-center md:text-left">{{ title }}</h1>
       <p :style="{ color: textColor }">{{ textContent}}</p>
     </div>
