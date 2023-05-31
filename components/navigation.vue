@@ -4,8 +4,8 @@
         <ul class="flex gap-6 items-center">
             <li class="text-xl"><NuxtLink to="/">Way we do it</NuxtLink></li>
             <li class="text-xl"><NuxtLink to="/">Partners</NuxtLink></li>
-            <button class="h-16 w-48 flex-row justify-center items-center flex gap-11.14 bg-gray-700 rounded-lg text-white">
-                <span class="text-xl font-semibold text-white">Let's chat</span>
+            <button class="h-16 flex-row justify-center items-center flex gap-11.14 bg-gray-700 rounded-3xl text-white">
+                <span class="text-xl font-semibold text-white mx-5">Let's chat</span>
             </button>
         </ul>
     </nav>

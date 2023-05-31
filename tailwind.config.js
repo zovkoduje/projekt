@@ -7,7 +7,7 @@ module.exports = {
     },
     rotate:{
       '-90': '-90deg',
-    }
+    },
   },
   plugins: [],
 }

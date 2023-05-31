@@ -2,10 +2,10 @@
     
     <div class="bg-gradient-to-br from-blue-200 to-white  pb-10">
         <Navigation/>
-        <div class="flex flex-col md:flex-row items-center m-36">
+        <div class="flex flex-col md:flex-row items-center md:m-36">
             <div class="relative z-10 order-1 md:order-1">
-                <h1 class="text-gray-700 font-black text-9xl">Let's change the future</h1>
-                <btn class="mt-10"/>
+                <h1 class="text-gray-700 font-black mx-10 md:mx-auto text-9xl">Let's change the future together</h1>
+                <btn/>
             </div>
             <Cover class="order-2 md:order-2"/>
         </div>
@@ -29,7 +29,7 @@
         <Quote/>        
     </div>
     <Worldmap></Worldmap>
-    <WordlmapMobile></WordlmapMobile>
+    <worldmapmob></worldmapmob>
     <div class=" relative bg-[#F1F1F1]">
         <Horizontal text="SPECIFICATION"/>
         <Vertical text="SPECIFICATION" color="text-white"/>
