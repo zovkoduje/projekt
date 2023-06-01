@@ -110,7 +110,7 @@
     <div class="pt-32 pb-10 bg-[url('/imgs/Contact_form_background.png')] bg-no-repeat bg-cover justify-center">
         
             <Contact></Contact>
-    </div>   
+    </div>  
 </template>
 <script>
 

@@ -19,9 +19,6 @@
        </div>
      </div>
    </div>
-   
-
-
 </template>
 
 <script>
@@ -55,7 +52,7 @@ export default {
    startTransitionLoop() {
      setInterval(() => {
        this.current = (this.current + 1) % this.data.length;
-     }, 5250); 
+     }, 5000); 
    },
  },
 };
@@ -66,8 +63,6 @@ export default {
 .image-container {
  position: relative;
  animation: rotate 18s linear infinite;
- 
- 
  transform-origin: 50% 65%;
 }
 
@@ -81,22 +76,22 @@ export default {
    transform: rotate(0deg);
  }
  30%{
-   transform: rotate(120deg);
+   transform: rotate(-120deg);
  }
  45%{
-   transform: rotate(120deg);
+   transform: rotate(-120deg);
  }
  60%{
-   transform: rotate(240deg);
+   transform: rotate(-240deg);
  }
  75%{
-   transform: rotate(240deg);
+   transform: rotate(-240deg);
  }
  90%{
-   transform: rotate(360deg);
+   transform: rotate(-360deg);
  }
  100% {
-   transform: rotate(360deg);
+   transform: rotate(-360deg);
  }
 }
 .fade-enter-active,
